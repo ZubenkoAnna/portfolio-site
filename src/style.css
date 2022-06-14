@@ -1,0 +1,58 @@
+:root {
+  --heading-font: "Nuosu SIL", serif;
+  --body-font: "Roboto", sans-serif;
+  --font-color: rgb(43, 43, 43);
+  --primery-color: #19142a;
+  --secondary-color: #d5213a;
+}
+body {
+  text-align: center;
+  font-family: var(--body-font);
+  padding-top: 50px;
+  color: var(--font-color);
+}
+h1 {
+  font-family: var(--heading-font);
+  font-size: 48px;
+  font-weight: 100;
+  margin: 0;
+}
+h3 {
+  font-family: var(--heading-font);
+  font-size: 24px;
+  font-weight: 400;
+  margin: 0;
+}
+p {
+  font-size: 18px;
+  margin: 8px 0 40px 0;
+}
+
+.main-btn {
+  padding: 16px 24px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: var(--primery-color);
+  color: #fff;
+  margin: 0 4px;
+}
+
+.main-btn:hover {
+  cursor: pointer;
+  background-color: var(--secondary-color);
+  color: #fff;
+}
+
+.second-btn {
+  padding: 16px 24px;
+  font-size: 16px;
+  border: 1px solid var(--primery-color);
+  border-radius: 8px;
+  background-color: #fff;
+  margin: 0 4px;
+}
+.second-btn:hover {
+  cursor: pointer;
+  border: 2px solid var(--secondary-color);
+}
