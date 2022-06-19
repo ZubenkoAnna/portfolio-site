@@ -51,7 +51,6 @@ a {
   border-radius: 8px;
   background-color: var(--primery-color);
   color: #fff;
-  margin: 0 4px;
 }
 
 .main-btn:hover {
