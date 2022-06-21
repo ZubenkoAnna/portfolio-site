@@ -106,6 +106,7 @@ a {
   font-size: 48px;
   margin: 16px 0 8px 0;
   padding-top: 32px;
+  font-family: var(--heading-font);
 }
 .row.g-2 {
   margin: 30px 0 30px 0;
@@ -117,19 +118,22 @@ a {
 
 @media (max-width: 450px) {
   h1 {
-    font-size: 48px;
+    font-size: 40px;
   }
   h2 {
-    font-size: 32;
+    font-size: 40px;
     margin-top: 16px;
   }
   body {
     margin-bottom: 50px;
+  }
+  p {
+    font-size: 16px;
   }
   .footer {
     font-size: 40px;
   }
   .p-about {
     padding: 0 16px;
-    
+  }
 }
