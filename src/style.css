@@ -18,6 +18,12 @@ h1 {
   font-weight: 100;
   margin: 0;
 }
+h2 {
+  font-family: var(--heading-font);
+  font-size: 56px;
+  font-weight: 100;
+  margin: 0;
+}
 h3 {
   font-family: var(--heading-font);
   font-size: 24px;
@@ -95,10 +101,35 @@ a {
   margin: 20px 0 8px 0;
   padding-top: 80px;
 }
+
+.footer {
+  font-size: 48px;
+  margin: 16px 0 8px 0;
+  padding-top: 32px;
+}
 .row.g-2 {
   margin: 30px 0 30px 0;
 }
 
 .navbar {
   margin-bottom: 50px;
+}
+
+@media (max-width: 450px) {
+  h1 {
+    font-size: 48px;
+  }
+  h2 {
+    font-size: 32;
+    margin-top: 16px;
+  }
+  body {
+    margin-bottom: 50px;
+  }
+  .footer {
+    font-size: 40px;
+  }
+  .p-about {
+    padding: 0 16px;
+    
 }
